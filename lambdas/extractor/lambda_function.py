@@ -3,7 +3,7 @@ import boto3
 
 from packages.dataroad_extractor_s3_client import DataroadExtractorS3Client
 from packages.dataroad_extractor_s3_enviroment import DataroadExtractorS3Environment
-from packages.dataroad_extractor_s3_enviroment import DataroadExtractorS3Environment
+from packages.dataroad_extractor_s3_parser import DataroadExtractorS3Parser
 
 
 def lambda_handler(event=None, context=None):
